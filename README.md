@@ -1,16 +1,39 @@
-# React + Vite
+# 📊 Product Performance Dashboard (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Deskripsi Project
 
-Currently, two official plugins are available:
+Project ini merupakan bagian frontend dari sistem Full Stack yang bertujuan untuk membantu brand memahami performa produk.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Dashboard ini menampilkan data produk hasil scraping dan API dalam bentuk:
 
-## React Compiler
+- 📊 Chart (visualisasi data)
+- 📋 Table (data detail produk)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fitur utama:
 
-## Expanding the ESLint configuration
+- Visualisasi distribusi rating produk
+- Table produk dengan pagination & sorting
+- Dark mode toggle
+- Error handling saat fetch data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Teknologi yang Digunakan
+
+- React JS (Vite)
+- Tailwind CSS
+- shadcn/ui
+- Recharts (Chart)
+- Axios / Fetch API
+- Lucide React (Icons)
+
+---
+
+## 🚀 Cara Install & Menjalankan Project
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/astroceilo/fe-test-skill-pt-ghifra
+cd frontend
+```
