@@ -1,5 +1,5 @@
 import ProductTable from "@/components/ProductTable";
-import SalesChart from "@/components/SalesChart";
+import RatingChart from "@/components/RatingChart";
 import { fetchProducts } from "@/services/api";
 import { useEffect, useState } from "react";
 import Sidebar from "@/components/Sidebar";
@@ -53,10 +53,10 @@ export default function Dashboard({ darkMode, setDarkMode }) {
               Rating Distribution
             </h2>
             <p className="text-sm text-muted-foreground">
-              Rata-rata harga produk berbeda di setiap platform, dengan platform
-              tertentu memiliki harga lebih tinggi.
+              Sebagian besar buku memiliki rating menengah (3–4), menunjukkan
+              kualitas yang cukup baik namun tidak dominan di rating tertinggi.
             </p>
-            <SalesChart data={chartData} />
+            <RatingChart data={chartData} />
           </div>
 
           {/* Table */}
